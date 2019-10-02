@@ -1,8 +1,8 @@
 <a href="http://192.168.0.166/smr2a_gabriel/smr2a.html">gabriel</a>
 
 Anabella
-
-<a href="http://192.168.0.165/smr2a_pablo/smr2a.html">pablo</a>
+<br>
+<br>
 
 <?php
 $f=fopen('visitas.txt','a');
@@ -22,7 +22,31 @@ if(isset($_GET['correo'])){
 ?>
 
 
+
+<a href="http://192.168.0.106/smr2a_anabella/catalogo.php">Listado compañeros</a>
+
+
+
+</html>
+
+ <center>
+ <h1>FORMULARIO</h1>
+ 
 <form>
-	<input name="correo" type="email">
-	<button>Enviar</button>
+
+	<p>
+
+		
+		Correo electronico: <input type="email" name="correo">
+	
+	</p>
+	
+	<button>Enviar la informacion</button>
+	
 </form>
+
+
+</html>
+</center>
+
+<a href="http://192.168.0.123/smr2a_pablo/smr2a.php">Pablo</a>
