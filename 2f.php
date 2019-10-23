@@ -1,9 +1,16 @@
+
 <?php
+$meses=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+for($i=0;$i<12;$i++)
+	echo $meses[$i].'<br>';	
+foreach ($meses as $mes)
+	echo $mes.'<br>';
+//	exit();
 function mes($n){
-	$meses = ['enero','febrero','marzo','abril','mayo','junio','julio',
-		'agosto','septiembre','octubre','noviembre','diciembre'
-		];
+	$meses=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
 	return $meses[$n-1];
 }
-echo mes(4);
-echo mes(10);
+$m = mes(9);
+echo $m;
+
+?>
