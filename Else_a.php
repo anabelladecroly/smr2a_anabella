@@ -1,12 +1,15 @@
+
+
 <?php
+
 function calcula($a){
-if ($a > 8) {
+if ($a >= 5) {
     echo "Apto";
-} elseif ($a == 8) {
-    echo "Apto";
-} else {
+} 
+else {
     echo "No Apto";
 }
 }
 calcula(5);
+
 ?>
