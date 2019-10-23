@@ -10,4 +10,6 @@ echo ($a*$b).'<br>';
 if($b!=0) echo ($a/$b).'<br>';
 }
 calcula(8,2);
+
+
 ?>
